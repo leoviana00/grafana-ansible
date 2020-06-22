@@ -56,3 +56,7 @@ ansible_python_interpreter=/usr/bin/python3
  # Rode a playbook com o seguinte comando
  
  - ansible-playbook -i hosts nome-playbook.yaml
+<<<<<<< HEAD
+=======
+     
+>>>>>>> 5337e19a436d5696dd932b57389c15e201d7a8be
