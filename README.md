@@ -4,9 +4,9 @@
 
 # Configuração:
 
-- Criar arquivo hosts configurando a maquina na qual desaja fazer a configuração
-EX:
-srv_lb  ansible_ssh_host=3.91.21.178 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=/home/leoviana/.ssh/id_rsa
+- Criar arquivo hosts configurando a maquina na qual desaja fazer a configuração, exemplo:
+
+- srv_lb  ansible_ssh_host=3.91.21.178 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=/home/leoviana/.ssh/id_rsa
 
 Adicionar o interpretador:
 ansible_python_interpreter=/usr/bin/python3
