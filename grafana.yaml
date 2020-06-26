@@ -1,3 +1,10 @@
+#---------------------------------------------------------------
+# Informação
+# autor: Leonardo Viana Pereira
+# email: leonardo.viana@armateus.com.br
+# version: 0.1.0
+# Descrição: Instalação e configuração do grafana através do ansible
+#---------------------------------------------------------------
 ---
     - hosts: srv_mt
       become: yes
